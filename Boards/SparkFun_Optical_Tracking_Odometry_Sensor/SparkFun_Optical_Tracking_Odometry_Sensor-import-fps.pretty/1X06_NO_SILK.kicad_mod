@@ -1,0 +1,187 @@
+(footprint "1X06_NO_SILK"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole - 6 Pin No Silk Outline\n\nSpecifications:\n\n• Pin count:6\n• Pin pitch:0.1\"\n\nExample device(s):\n\n• CONN_06")
+	(property "Reference" "REF**"
+		(at -1.27 -1.397 0)
+		(layer "F.SilkS")
+		(uuid "33c4e945-fc03-4f35-bbda-3a1d79b3f5ac")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X06_NO_SILK"
+		(at -1.27 2.032 0)
+		(layer "F.Fab")
+		(uuid "8871106b-e76e-4801-9f62-29864fcee2e8")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3f5d47f-4239-4877-a6aa-499c6d111c58")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a95cd06-1894-4568-b987-a69d3ab0cf57")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "36f8a707-3c8f-4b5e-84e8-36665ec80b67")
+	)
+	(fp_poly
+		(pts
+			(xy 2.286 0.254) (xy 2.794 0.254) (xy 2.794 -0.254) (xy 2.286 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "fbff820c-ed24-430e-9f25-35185c2f630c")
+	)
+	(fp_poly
+		(pts
+			(xy 4.826 0.254) (xy 5.334 0.254) (xy 5.334 -0.254) (xy 4.826 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d82d448d-8abd-42e8-b8c1-b35b58f141d3")
+	)
+	(fp_poly
+		(pts
+			(xy 7.366 0.254) (xy 7.874 0.254) (xy 7.874 -0.254) (xy 7.366 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "98829c3b-1d84-482d-8017-c1f556bd5331")
+	)
+	(fp_poly
+		(pts
+			(xy 9.906 0.254) (xy 10.414 0.254) (xy 10.414 -0.254) (xy 9.906 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "bd55b57d-e15d-4bb7-8a22-0d59525a7147")
+	)
+	(fp_poly
+		(pts
+			(xy 12.446 0.254) (xy 12.954 0.254) (xy 12.954 -0.254) (xy 12.446 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "60401d00-d401-4bd8-a3a5-98266605e7c3")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "f986ad76-103c-4ff5-9780-8339a6aee298")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "9d076610-e396-412c-93cd-2c63e1e1bfa5")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "72c1f8aa-b5f0-4bf4-92f1-9df6fe9ef884")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "bea9dac4-641b-462f-9084-d491bfd5ee11")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "172fd0c4-bd41-478a-a505-f34cf83497a0")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "40a09052-c517-4387-8ae8-cb521ed34641")
+	)
+	(embedded_fonts no)
+)

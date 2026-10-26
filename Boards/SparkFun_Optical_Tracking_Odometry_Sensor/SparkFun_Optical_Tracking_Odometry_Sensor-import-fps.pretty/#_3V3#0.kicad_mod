@@ -1,0 +1,63 @@
+(footprint "#_3V3#0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f53c940a-e995-494b-ad8e-ee40a085408f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "09330011-2d8e-4870-9baf-0f201f0425a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7af37d7-1d07-4a58-89a2-8d7cdd522144")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0012ec83-cb62-4d29-9191-5d858289c320")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 4.330414 -0.685) (xy 4.395 -0.674236) (xy 4.395 0.620414) (xy 4.384236 0.685) (xy 0.389037 0.685)
+			(xy 0.335 0.663385) (xy 0.335 -0.630963) (xy 0.356615 -0.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d76f88bf-112e-41dd-83f8-3c14170f4a4b")
+	)
+	(embedded_fonts no)
+)

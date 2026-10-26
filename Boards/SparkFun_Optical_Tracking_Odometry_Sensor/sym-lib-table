@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SparkFun_Optical_Tracking_Odometry_Sensor-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/SparkFun_Optical_Tracking_Odometry_Sensor-eagle-import.kicad_sym") (options "") (descr ""))
+)

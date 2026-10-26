@@ -1,0 +1,93 @@
+(footprint "#_SDA#0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3b9b33f6-5d08-4a13-94a0-7ffc07120e56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "410e20fa-39ae-4fb8-88af-60409bf6d77a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a50a5e4a-96e7-4773-86d5-067fee69a997")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a372597e-9121-4f1b-bfd5-7c64d2b32682")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 3.51577 0.040359) (xy 3.492676 0.075) (xy 3.342185 0.075) (xy 3.406195 -0.063688) (xy 3.452236 -0.086708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c05e8f5d-3a13-461d-b3d2-675a2df54748")
+	)
+	(fp_poly
+		(pts
+			(xy 2.401881 -0.244756) (xy 2.462954 -0.20404) (xy 2.513981 -0.163218) (xy 2.54468 -0.10182) (xy 2.565 -0.0307)
+			(xy 2.565 0.040811) (xy 2.544532 0.102216) (xy 2.50373 0.163419) (xy 2.45271 0.204235) (xy 2.37118 0.245)
+			(xy 2.22882 0.245) (xy 2.185 0.22309) (xy 2.185 -0.190414) (xy 2.195764 -0.255) (xy 2.340414 -0.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d922ec32-ee0f-43fc-8847-1424cc0e41de")
+	)
+	(fp_poly
+		(pts
+			(xy 4.130355 -0.685) (xy 4.200765 -0.674942) (xy 4.261101 -0.664885) (xy 4.33182 -0.64468) (xy 4.45271 -0.584235)
+			(xy 4.502948 -0.544043) (xy 4.563419 -0.50373) (xy 4.603724 -0.453347) (xy 4.654109 -0.402962) (xy 4.74468 -0.22182)
+			(xy 4.764885 -0.151101) (xy 4.775 -0.090414) (xy 4.775 0.120811) (xy 4.754783 0.181458) (xy 4.73468 0.25182)
+			(xy 4.674235 0.37271) (xy 4.633731 0.42334) (xy 4.583536 0.473536) (xy 4.53334 0.523731) (xy 4.48271 0.564235)
+			(xy 4.30151 0.654835) (xy 4.230756 0.664942) (xy 4.170765 0.674942) (xy 4.100355 0.685) (xy 0.378333 0.685)
+			(xy 0.335 0.6525) (xy 0.335 -0.641667) (xy 0.3675 -0.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "760d3098-15bb-4041-a91e-0d6366460ad9")
+	)
+	(embedded_fonts no)
+)
