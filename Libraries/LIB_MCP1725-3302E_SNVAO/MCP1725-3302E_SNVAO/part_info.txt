@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP1725-3302E/SNVAO
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2026-05-03 04:18:30
+Downloaded=2026-10-26 15:48:43
+3D=Y

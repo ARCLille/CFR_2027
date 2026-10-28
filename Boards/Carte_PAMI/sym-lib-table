@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "ESP32-S3-WROOM-1U") (type "KiCad") (uri "/home/yacineh/Documents/CFR/CFR_2027/Libraries/ul_ESP32-S3-WROOM-1U-N16R8/KiCADv6/2026-10-22_14-48-14.kicad_sym") (options "") (descr ""))
+	(lib (name "TLV76133DCYR") (type "KiCad") (uri "/home/yacineh/Documents/CFR/CFR_2027/Libraries/LIB_TLV76133DCYR/TLV76133DCYR/KiCad/TLV76133DCYR.kicad_sym") (options "") (descr ""))
 )

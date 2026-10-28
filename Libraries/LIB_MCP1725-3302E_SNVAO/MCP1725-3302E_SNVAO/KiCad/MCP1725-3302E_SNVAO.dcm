@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1725-3302E_SNVAO
+D Linear Voltage Regulator IC Output SOIC-8 Fixed  -40C to +125C  3.3V
+K
+F https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1725-500-mA%2C-Low-Voltage%2C-Low-Quiescent-Current-LDO-Regulator-20002026C.pdf
+$ENDCMP
+#
+#End Doc Library

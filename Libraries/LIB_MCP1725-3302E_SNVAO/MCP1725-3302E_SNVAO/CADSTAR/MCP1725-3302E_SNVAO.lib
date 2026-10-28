@@ -1,0 +1,16 @@
+.MCP1725-3302E_SNVAO :1 ;Linear Voltage Regulator IC Output SOIC-8 Fixed  -40C to +125C  3.3V
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VIN_1" 2="VIN_2" 3="'SHDN'" 4="GND" 5="PWRGD" 6="CDELAY" 7="SENSE" 8="VOUT"
+*MXP 8
+*DFN MCP1725-3302E_SNVAO
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP1725-3302E/SNVAO)
+~!Link Datasheet (https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1725-500-mA%2C-Low-Voltage%2C-Low-Quiescent-Current-LDO-Regulator-20002026C.pdf)
+~!Height (1.75mm)
+~!3D_Model (MCP1725-3302E_SNVAO)
+MCP1725-3302E_SNVAO
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
