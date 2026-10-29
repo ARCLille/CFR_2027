@@ -167,11 +167,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onvia": false
         }
       ],
       "teardrop_parameters": [
@@ -224,7 +224,8 @@
         0.55,
         0.6,
         0.8,
-        1.0
+        1.0,
+        1.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -722,7 +723,7 @@
         "uuid": "5ac59948-ac5d-4c78-ae86-30fc8711715a"
       }
     ],
-    "used_designators": "IC1,J1-11,SW1-4,R1-10,D1-4,C1-10,#PWR1-31,Q1,U1-5",
+    "used_designators": "H1-4,L1,IC1,J1-12,SW1-4,R1-11,D1-4,C1-14,#PWR1-39,Q1-2,U1-6",
     "variants": []
   },
   "sheets": [
