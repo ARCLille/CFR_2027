@@ -8300,12 +8300,6 @@
 		(uuid "dc0b2817-7b66-4b8d-a6f9-1e0e4a93c8c1")
 	)
 	(junction
-		(at 336.55 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc756c5e-38b5-4c1b-8b6d-b1367213b304")
-	)
-	(junction
 		(at 92.71 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8803,7 +8797,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 179.07) (xy 335.28 185.42)
+			(xy 335.28 179.07) (xy 335.28 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8850,6 +8844,16 @@
 			(type default)
 		)
 		(uuid "38c38e0c-c0ae-4559-9908-1cd2a47f81e3")
+	)
+	(wire
+		(pts
+			(xy 337.82 179.07) (xy 337.82 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e2f1f8-3236-4b28-9c24-fea1c9924de0")
 	)
 	(wire
 		(pts
@@ -9543,16 +9547,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 179.07) (xy 337.82 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84480db3-8497-40e3-9d36-cac98cc04e08")
-	)
-	(wire
-		(pts
 			(xy 34.29 215.9) (xy 35.56 215.9)
 		)
 		(stroke
@@ -9673,16 +9667,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 185.42) (xy 336.55 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c04e36-78ba-4f74-97cc-ebbcfbacfa9a")
-	)
-	(wire
-		(pts
 			(xy 198.12 242.57) (xy 198.12 237.49)
 		)
 		(stroke
@@ -9770,16 +9754,6 @@
 			(type default)
 		)
 		(uuid "9add78e3-1379-4048-bde7-87e04df085a7")
-	)
-	(wire
-		(pts
-			(xy 336.55 185.42) (xy 336.55 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aeb67d5-3fae-4ab1-9fe0-308b27ba3e76")
 	)
 	(wire
 		(pts
@@ -10533,6 +10507,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 185.42) (xy 353.06 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6b90a6-f7ed-43dd-af9b-584223092fe5")
+	)
+	(wire
+		(pts
 			(xy 339.09 83.82) (xy 309.88 83.82)
 		)
 		(stroke
@@ -10610,16 +10594,6 @@
 			(type default)
 		)
 		(uuid "efd513ec-3246-4091-b2b0-53cc2111d1ce")
-	)
-	(wire
-		(pts
-			(xy 335.28 185.42) (xy 336.55 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a3e624-4d9c-476d-b8ca-3f87fe6d1b9e")
 	)
 	(wire
 		(pts
@@ -10720,6 +10694,16 @@
 			(type default)
 		)
 		(uuid "f95010fd-2c11-44a1-966e-538dab1fad02")
+	)
+	(wire
+		(pts
+			(xy 337.82 185.42) (xy 353.06 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbafc0d9-2b50-4b85-8c52-2483441a3a85")
 	)
 	(wire
 		(pts
@@ -30169,6 +30153,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 353.06 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2af290b8-1813-4783-a1bf-02f7edb77ebf")
+		(property "Reference" "#PWR044"
+			(at 353.06 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 353.06 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44dd5c22-cf2c-4231-b3b7-2428cd0bd7c1")
+		)
+		(instances
+			(project "Carte_PAMI"
+				(path "/5ac59948-ac5d-4c78-ae86-30fc8711715a"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 181.61 201.93 0)
 		(unit 1)
@@ -30404,7 +30466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 336.55 187.96 0)
+		(at 335.28 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30415,7 +30477,7 @@
 		(fields_autoplaced yes)
 		(uuid "31da4308-2e45-4c6e-9f37-0204f64442f1")
 		(property "Reference" "#PWR035"
-			(at 336.55 194.31 0)
+			(at 335.28 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30426,7 +30488,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 193.04 0)
+			(at 335.28 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30436,7 +30498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 187.96 0)
+			(at 335.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30447,7 +30509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 187.96 0)
+			(at 335.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30458,7 +30520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 187.96 0)
+			(at 335.28 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32867,7 +32929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Custom_library:Battery_header_male"
 			(at 326.39 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -33026,7 +33088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Custom_library:PinSocket_2.54_Horizontal_SMD"
 			(at 312.42 130.81 0)
 			(hide yes)
 			(show_name no)
