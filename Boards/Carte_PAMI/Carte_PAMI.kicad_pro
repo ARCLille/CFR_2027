@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|85103795|120210045|80ec3294-ca57-4340-bf6c-8d095e116020|184f963a-b55a-4c93-8c17-1bc857988e65",
+          "Change usb footprint"
+        ],
+        [
+          "hole_clearance|85103795|120210045|a861619f-2b31-4ef9-9803-10c43c0f2c8a|184f963a-b55a-4c93-8c17-1bc857988e65",
+          "Change usb footprint"
+        ],
+        [
+          "hole_clearance|91203795|120210045|d316ae80-c274-40b8-bf56-acf5b078027d|8db0dd87-a4e6-47bd-a743-eacfde6b19bb",
+          "Change usb footprint"
+        ],
+        [
+          "hole_clearance|91203795|120210045|d32bba24-6c61-4a7c-89c4-b4cd8ef5ce38|8db0dd87-a4e6-47bd-a743-eacfde6b19bb",
+          "Change usb footprint"
+        ]
+      ],
       "meta": {
         "version": 2
       },
