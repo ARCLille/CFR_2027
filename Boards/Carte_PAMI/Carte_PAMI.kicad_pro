@@ -605,7 +605,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Carte_PAMI.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
