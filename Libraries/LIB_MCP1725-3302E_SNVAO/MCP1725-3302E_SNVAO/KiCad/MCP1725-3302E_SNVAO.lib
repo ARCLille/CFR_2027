@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP1725-3302E_SNVAO
+#/21201796/2209306/2.50/8/3/Integrated Circuit
+DEF MCP1725-3302E_SNVAO IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MCP1725-3302E_SNVAO" 1150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1150 100 50 H I L CNN
+F3 "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1725-500-mA%2C-Low-Voltage%2C-Low-Quiescent-Current-LDO-Regulator-20002026C.pdf" 1150 0 50 H I L CNN
+F4 "Linear Voltage Regulator IC Output SOIC-8 Fixed  -40C to +125C  3.3V" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP1725-3302E/SNVAO" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN_1 1 0 0 200 R 50 50 0 0 P
+X VIN_2 2 0 -100 200 R 50 50 0 0 P
+X ~SHDN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VOUT 8 1300 0 200 L 50 50 0 0 P
+X SENSE 7 1300 -100 200 L 50 50 0 0 P
+X CDELAY 6 1300 -200 200 L 50 50 0 0 P
+X PWRGD 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

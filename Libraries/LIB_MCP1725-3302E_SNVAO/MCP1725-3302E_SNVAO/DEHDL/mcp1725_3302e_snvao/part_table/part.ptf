@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP1725_3302E_SNVAO'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP1725-3302E/SNVAO" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "Linear Voltage Regulator IC Output SOIC-8 Fixed  -40C to +125C  3.3V", "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1725-500-mA%2C-Low-Voltage%2C-Low-Quiescent-Current-LDO-Regulator-20002026C.pdf", "1.75 mm"
+END_PART
+
+END.
