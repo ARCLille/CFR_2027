@@ -8756,6 +8756,7 @@
 		(property "Reference" "J7"
 			(at -4.75 -0.3 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ea202a40-2a90-4c01-861e-f4a0ba392bf8")
 			(effects
 				(font
@@ -9090,6 +9091,7 @@
 		(property "Reference" "J1"
 			(at 1.25 3.55 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6f94df1f-427b-4cfd-9bef-510026376224")
 			(effects
 				(font
@@ -9969,6 +9971,7 @@
 		(property "Reference" "J8"
 			(at 17 -0.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d5eea1b2-02ba-4520-97a5-1d69e7a79d25")
 			(effects
 				(font
@@ -10572,6 +10575,7 @@
 		(property "Reference" "J5"
 			(at 0 -5.27 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "17d1d3d2-f87f-43cc-91a1-c78d2714375d")
 			(effects
 				(font
@@ -10848,6 +10852,7 @@
 		(property "Reference" "U5"
 			(at 0 3.4 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9978edda-996e-4cac-8edd-13d70c6f3548")
 			(effects
 				(font
@@ -12355,6 +12360,7 @@
 			(at 0 2.1 270)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "25df2667-e9b9-4dd5-8fa3-da7c7539d032")
 			(effects
 				(font
@@ -18364,7 +18370,7 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 92.8 81.8 90)
+		(at 134.4 72.1 0)
 		(layer "F.SilkS")
 		(uuid "3c86b32b-ec43-4da5-a142-be95a4503cc0")
 		(effects
@@ -18373,30 +18379,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "TRIGGER"
-		(at 104.8 108.7 0)
-		(layer "F.SilkS")
-		(uuid "39aa8f60-4b9a-42ef-93a2-3399f1953f33")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 153.7 101.1 0)
-		(layer "F.SilkS")
-		(uuid "40b337a8-1398-4d59-b847-fc8e60c5e3c6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-			(justify bottom)
 		)
 	)
 	(gr_text "LEFT"
@@ -18532,6 +18514,30 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "TRIGGER"
+		(at 104.7 108 -0)
+		(layer "B.SilkS")
+		(uuid "39aa8f60-4b9a-42ef-93a2-3399f1953f33")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 153.7 101.1 -0)
+		(layer "B.SilkS")
+		(uuid "40b337a8-1398-4d59-b847-fc8e60c5e3c6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 154.3 65 -0)
 		(layer "B.SilkS")
@@ -18629,7 +18635,7 @@
 		)
 	)
 	(gr_text "TMS"
-		(at 78.3 53.4 90)
+		(at 78.3 56.1 90)
 		(layer "B.SilkS")
 		(uuid "04877f47-6b1a-4310-a9c0-6047cee5dd95")
 		(effects
@@ -18641,7 +18647,7 @@
 		)
 	)
 	(gr_text "TDI"
-		(at 80.8 53.5 90)
+		(at 80.8 56.2 90)
 		(layer "B.SilkS")
 		(uuid "d6a4de4c-e808-4a6f-bbc7-bc2f6de30b74")
 		(effects
@@ -18653,7 +18659,7 @@
 		)
 	)
 	(gr_text "TDO"
-		(at 83.3 53.5 90)
+		(at 83.3 56.2 90)
 		(layer "B.SilkS")
 		(uuid "417353ee-ea77-4000-b5d4-af1f776a1553")
 		(effects
@@ -18665,7 +18671,7 @@
 		)
 	)
 	(gr_text "TCK"
-		(at 85.9 53.5 90)
+		(at 85.9 56.2 90)
 		(layer "B.SilkS")
 		(uuid "b88fa5ec-f463-4add-a381-43f5ea085c3e")
 		(effects
@@ -18677,7 +18683,7 @@
 		)
 	)
 	(gr_text "IO38"
-		(at 91.5 53.1 90)
+		(at 91.5 55.7 90)
 		(layer "B.SilkS")
 		(uuid "340e557e-886f-4c4a-a258-723692c8a6ee")
 		(effects
@@ -18689,7 +18695,7 @@
 		)
 	)
 	(gr_text "IO7"
-		(at 94 53.1 90)
+		(at 94 55.7 90)
 		(layer "B.SilkS")
 		(uuid "bf26d89b-4952-4988-be1b-1c5d2f3fcc69")
 		(effects
@@ -18701,7 +18707,7 @@
 		)
 	)
 	(gr_text "IO15"
-		(at 96.5 53.1 90)
+		(at 96.5 55.7 90)
 		(layer "B.SilkS")
 		(uuid "fec68e3a-b169-430e-a693-f2d6b60d88ea")
 		(effects
@@ -18713,7 +18719,7 @@
 		)
 	)
 	(gr_text "IO16"
-		(at 99.1 53.1 90)
+		(at 99.1 55.7 90)
 		(layer "B.SilkS")
 		(uuid "f2530c08-1103-47fd-99e1-2cb854fca662")
 		(effects
@@ -18725,7 +18731,7 @@
 		)
 	)
 	(gr_text "IO17"
-		(at 101.6 53.1 90)
+		(at 101.6 55.7 90)
 		(layer "B.SilkS")
 		(uuid "302d22d5-a40e-438d-a10b-f35ffed20abf")
 		(effects
@@ -18737,7 +18743,7 @@
 		)
 	)
 	(gr_text "IO18"
-		(at 104.2 52.9 90)
+		(at 104.2 55.5 90)
 		(layer "B.SilkS")
 		(uuid "3947256b-17fc-4235-b350-7e1a8d7377b6")
 		(effects
@@ -18749,7 +18755,7 @@
 		)
 	)
 	(gr_text "IO8"
-		(at 106.7 52.9 90)
+		(at 106.7 56.3 90)
 		(layer "B.SilkS")
 		(uuid "6d6a91eb-79c3-4604-8bef-62c47746dd09")
 		(effects
@@ -18761,7 +18767,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 109.2 53 90)
+		(at 109.2 55.6 90)
 		(layer "B.SilkS")
 		(uuid "e259bf90-b0da-4a88-b3ad-dcaabdd291f4")
 		(effects
@@ -18773,7 +18779,7 @@
 		)
 	)
 	(gr_text "+3.3V"
-		(at 111.8 52.1 90)
+		(at 111.8 54.7 90)
 		(layer "B.SilkS")
 		(uuid "defeb1e4-4444-445d-b659-1c89bac13ce4")
 		(effects
@@ -18785,9 +18791,21 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 114.8 52.7 90)
+		(at 114.8 55.8 90)
 		(layer "B.SilkS")
 		(uuid "8a85429f-f0ba-4157-a889-d97b942deb75")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "BAU"
+		(at 147.4 82 90)
+		(layer "B.SilkS")
+		(uuid "f76789d2-7185-43de-9b2b-140b1b8066f5")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -22346,36 +22364,36 @@
 		(uuid "2273731b-96d9-4fb1-805a-f17511ebdd2c")
 	)
 	(segment
+		(start 121.93082 94.16918)
+		(end 131.4 84.7)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "PWMB")
+		(uuid "5f5731d5-5df5-4414-9505-e568d5e054b5")
+	)
+	(segment
+		(start 158.4 84.7)
+		(end 167.35 75.75)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "PWMB")
+		(uuid "86034124-7ca8-4067-80bc-d030812cd21c")
+	)
+	(segment
 		(start 121.8 94.16918)
 		(end 121.93082 94.16918)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "PWMB")
-		(uuid "3988b416-1f1c-4760-85ee-3cf6177eace8")
+		(uuid "bed13705-e931-4045-ae35-656f90a4ebb1")
 	)
 	(segment
-		(start 158.58 84.52)
-		(end 167.35 75.75)
+		(start 131.4 84.7)
+		(end 158.4 84.7)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "PWMB")
-		(uuid "3f4e5c6f-a77c-4dba-8ad2-9ccbe5ea5101")
-	)
-	(segment
-		(start 121.93082 94.16918)
-		(end 131.58 84.52)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "PWMB")
-		(uuid "4a08d857-29ff-4bea-be74-e0dfffb43808")
-	)
-	(segment
-		(start 131.58 84.52)
-		(end 158.58 84.52)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "PWMB")
-		(uuid "d4ddd4ce-4012-49c1-ac54-f1bc5b361864")
+		(uuid "dbd21cf1-bb1e-4066-a441-a3a17aa6c3f2")
 	)
 	(segment
 		(start 87.46071 91.26071)
